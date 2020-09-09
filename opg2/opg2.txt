@@ -1,0 +1,4 @@
+Pytagoras
+
+Lav et program som kan beregne C i en retvinklet trekant, og udskriv din trekant til skærmen.
+For at kunne løse opgaven skal du finde den funktion som kan udregne potens
