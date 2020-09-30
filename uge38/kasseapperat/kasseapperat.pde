@@ -1,5 +1,6 @@
 int belobUdenMoms = 100;
-float belobMedMoms =0 ;
+float belobMedMoms = 0;
+String navn = "Jens";
 
 void setup(){
   noLoop();
@@ -7,8 +8,10 @@ void setup(){
 
 
 void draw(){
-  belobMedMoms = beregnMoms(belobUdenMoms);
-  print (belobMedMoms);
+  float belobMedMoms = beregnMoms(belobUdenMoms);
+  println (belobMedMoms);
+  print (day(),"/",month(),year(), hour(),":",minute());
+  
 }
 
 

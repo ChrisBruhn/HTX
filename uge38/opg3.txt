@@ -47,15 +47,16 @@ HUSK: Hvis du vil bruge en funktion i processing skal du også bruge void setup(
 
 Opgave 1)
 Se på programmet fourTimesAAlien (hentes på GITHUB).
-	a) Find funktionen. I hvilket linje nummer deklarerers funktionen? 
-	b) Fra hvilket linje nummere bliver funktionen kaldt?
-	c) Hvor mange gange kalder jeg funktionen? 
-	d) Opret nu din egen funktion som laver: 
+	a) Find funktionen frameFunction. På hvilken linje (nummer), deklarerers frameFunction() ? 
+	b) Fra hvilke linjenumre, bliver funktionen kaldt?
+	c) Med hvor mange parameter kalder jeg funktionen? 
+	d) Opret nu dine egne funktioner som laver: 
  		1) Hoved med øjne
 		2) Kroppen med ben
 		3) Skirver et nyt navn
-		4) Kald dine tre nye funktioner fra draw()
-		5) En ny funktion som kalder hoved og krop og ret draw() til så den kan tegne en alien i alle firkanter. Du finder nok ud af at det har noget med x,y pos at gøre :)
+		4) Kald dine tre nye funktioner fra draw() og se om programmet stadigvæk tegner en alien i det øverste felt til venstre.
+
+		5) Opret en ny funktion som kalder hoved og krop og ret draw() til. Din funktion skal tegne en alien i alle firkanter. Du skal tilpasse parameterne og du finder nok ud af at det har noget med x,y pos at gøre :)
 
 
 Opgave 2)
