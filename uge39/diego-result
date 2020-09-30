@@ -1,0 +1,9 @@
+// replace float with any datatype
+float i = 0;
+boolean x = false;
+while (x == false) {
+  println(i);
+  i = i + 1;
+}
+
+
