@@ -1,0 +1,6 @@
+// this one got less decimals because it just uses the default thingy
+println(sqrt(2) + sqrt(2));
+// this one is wayy more accurate because we are using a library or whatever to do it better than the default calculation thingy can
+println(Math.sqrt(2) + Math.sqrt(2));
+
+
