@@ -1,4 +1,4 @@
-// replace float with any datatype
+// replace float with any datatype to find the biggest value
 float i = 0;
 boolean x = false;
 while (x == false) {
@@ -6,4 +6,32 @@ while (x == false) {
   i = i + 1;
 }
 
+// replace float with any datatype to find the smallest value
+float i = 0;
+boolean x = false;
+while (x == false) {
+  println(i);
+  i = i - 1;
+}
 
+
+
+// or you could do this
+// max values
+println(Integer.MAX_VALUE);
+println(Float.MAX_VALUE);
+println(Character.MAX_VALUE + 0);
+println(Short.MAX_VALUE);
+println(Long.MAX_VALUE);
+println(Byte.MAX_VALUE);
+println(Double.MAX_VALUE);
+
+
+// min values
+println(Integer.MIN_VALUE);
+println(Float.MIN_VALUE);
+println(Character.MIN_VALUE + 0);
+println(Short.MIN_VALUE);
+println(Long.MIN_VALUE);
+println(Byte.MIN_VALUE);
+println(Double.MIN_VALUE);
