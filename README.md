@@ -1,1 +1,1 @@
-Opgaver til java programmering HTX med alle svar fra Diego
+Opgaver til java programmering HTX med svar fra Diego
