@@ -1,8 +1,5 @@
 Pytagoras
 
 Lav et program som kan beregne C i en retvinklet trekant, og udskriv din trekant til skærmen.
-<<<<<<< HEAD
-For at kunne løse opgaven skal du finde den funktion som kan udregne potens
-=======
+
 For at kunne løse opgaven skal du finde den funktion som kan udregne potens.
->>>>>>> 647b354c916f65748db8ed3c6975a50d7716a857
