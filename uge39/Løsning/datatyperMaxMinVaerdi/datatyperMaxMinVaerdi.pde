@@ -1,5 +1,5 @@
 void setup(){
-  size(800,600);
+  size(100,100);
   noLoop();
 }
 void draw(){
@@ -17,12 +17,20 @@ void draw(){
   println("Long Min Value: "+(Long.MIN_VALUE));
   println("Double Max Value: "+(Double.MAX_VALUE+0));
   println("Double Min Value: "+(Double.MIN_VALUE));
- // crash(Integer.MAX_VALUE);
+  crashInt(Integer.MAX_VALUE);
+  crashFloat(Float.MAX_VALUE);
 }
 
-void crash(int i )
+void crashInt(int i )
 {
   //eksempel på overflow operation
   i ++;
+  println(i);
+}
+
+void crashFloat(float i )
+{
+  //eksempel på overflow operation
+  i = i +0.1;
   println(i);
 }

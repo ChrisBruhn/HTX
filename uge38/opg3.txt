@@ -82,7 +82,7 @@ Hent programmet kasseapparat fra Github
 		Beløb med moms: 125
 		Momsbeløbet udgør: 25
 
-	4) Slå date() op i dokumentationen og tilføj følgende linje til din bon
+	4) Slå day() op i dokumentationen og tilføj følgende linje til din bon
 		Dato: 16/9 2020 kl 13:00
 
 	ingen mellemrum imellem talne :) 
