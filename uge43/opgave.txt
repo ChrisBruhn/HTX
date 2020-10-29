@@ -1,0 +1,28 @@
+Opgaven handler om optimering af kode og brug af funktioner.
+
+Læs og forstå koden i mappen atArbejdeMedEnStreng.
+
+Opgave 1
+Optimer og omskriv den kode du finder i mappen atArbejdeMedEnStreng, herunder opret relevante funktioner og optimer output.
+	f.eks.:
+	lav deklaration og initiering i samme linje.
+	lav while om til for loop.
+	slet variabler du ikke skal bruge.
+
+Opgave 2
+Opret nu to funktioner. En som kan udskrive et tal, og en som kan udskrive et bogstav. Brug disse funktioner i koden til dit output.
+	void printCharToConsole(char c){}
+	void printResultToConsole(int i){}
+Reglen er, at så snart man har mere en 7 linjer kode, så skal man overveje at lave en funktion. 
+
+	
+Husk, når du vil bruge funktioner så skal det hele være funktioner. 
+	void setup(){}
+	void draw(){}
+
+
+
+
+
+
+

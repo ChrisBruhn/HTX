@@ -1,0 +1,93 @@
+Du kender nu til følgende:
+
+Datatyper:
+	float: kommatal.
+	char: en enkelt karakter.
+	String: et array af char.
+
+Instruktioner:
+	size(); // sætter størrelsen for canvas
+	line(); // tegner en linje
+	strokeWeight(); // tykkelse af streg
+	rect();	// tegner en rektangel
+	circle(); // Tegner en cirkel
+	arc();	// Tegner en bue
+	fill(); // udfylder en figur med farve. Find rgb farver her: https://www.rapidtables.com/web/color/RGB_Color.html 	
+
+I denne opgave skal du bruge datatypen integer. Integers er heltal som f.eks: 0,1,2,3,4,5... i java deklarerer vi variablen x af datatypen Integer som: int x; 
+Eksempel på en deklaration og initiering i samme linje:
+int x = 0;
+
+Herud over skal vi arbejde med funktioner. Du kender dem fra matematikken, hvor en funktion genererer/returnerer en værdi. Vi bruger funktioner når vi skal udføre den samme sekvens flere gange, med forskellige variabler.
+Funktioner i Java, består af 4 dele. 
+
+1) Ligesom variabler skal funtioner deklarere deres returdatatype. Funktionen kunne returnere en int, float, string eller char, men altid kun én variabel.
+
+Deklaration af en function, med returdatatypen int.
+int minFunktion(){}
+
+Hvis funktionen ikke returnerer noget, skal den defineres som void. 
+void minFunktion(){}
+
+2) Funktioner skal navngives med et ikke reserveret ord (ord som er brugt i forvejen), men hvor navnet er sigende for funktionens funktion. 
+I mit overstående eksempel er navenet "minFunktion". Vi bruger navnet når vi skal "kalde" funktionen fra en anden del kode.
+
+3) Funktionen kan modtage en lang række parameter. Forskellen på betydningen af parameter og variabel kan vi finde i ordbogen: 
+"MATEMATIK størrelse som kan variere fra tilfælde til tilfælde, men som i hver enkelt, konkret beregning er konstant"
+En funktions paramenter skal angives i parantesen efternavenet og vi skal huske at deklarere datatypen.
+int minFunktion(int minAVaerdi){}
+
+Man kan sagtens deklarere mange parametere til sin funktion. Parameter er kun gyldige lokalt. Det vil sige at du kan ikke bruge en variabel du har deklareret i andre funktioner uden at skulle deklarere dem igen. 
+
+En funktions kode skal skrives imellem de to tuborgparanteser {}.
+
+HUSK: Hvis du vil bruge en funktion i processing skal du også bruge void setup(); og void draw();
+
+
+
+Opgave 1)
+Se på programmet fourTimesAAlien (hentes på GITHUB).
+	a) Find funktionen frameFunction. På hvilken linje (nummer), deklarerers frameFunction() ? 
+	b) Fra hvilke linjenumre, bliver funktionen kaldt?
+	c) Med hvor mange parameter kalder jeg funktionen? 
+	d) Opret nu dine egne funktioner som laver: 
+ 		1) Hoved med øjne
+		2) Kroppen med ben
+		3) Skirver et nyt navn
+		4) Kald dine tre nye funktioner fra draw() og se om programmet stadigvæk tegner en alien i det øverste felt til venstre.
+
+		5) Opret en ny funktion som kalder hoved og krop og ret draw() til. Din funktion skal tegne en alien i alle firkanter. Du skal tilpasse parameterne og du finder nok ud af at det har noget med x,y pos at gøre :)
+
+
+Opgave 2)
+Du skal lave et kasseapperat. Apperatet skal have nogle forskellige funktioner som returnerer forskellige værdier. Når en funktion returnerer en værdi skal vi have en beholder som kan indeholde den værdi som kommer retur. F.eks. en moms funktion returnerer en float. 
+
+//deklaration af variablen
+float belobMedMoms=0; 
+// kald funktionen og hold beholderen beloebMedMoms klar til at modtage retur værdien fra funktionen.
+belobMedMoms = beregMoms(belobUdenMoms);
+
+Hent programmet kasseapparat fra Github
+
+	1) Se  på funktion som beregner moms. Den modtager en integer værdig som parameter og returnerer en float(kommatal). Du beregner momsen ved at gange med 1,25. Forklar alle linjer i programmet.
+ 
+	2) Lav en ny funktion som trækker moms fra. Den modtager en float værdi som parameter og returnerer en float. Man trækker momsen fra ved at gange med 0,8.
+
+	3) Lav en ny funktion som kan udskrive en bon. 
+
+		Tak for dit køb Jens,
+		Du har købt for 125 kroner.
+
+		Beløb uden moms: 100
+		Beløb med moms: 125
+		Momsbeløbet udgør: 25
+
+	4) Slå day() op i dokumentationen og tilføj følgende linje til din bon
+		Dato: 16/9 2020 kl 13:00
+
+	ingen mellemrum imellem talne :) 
+
+
+
+
+
