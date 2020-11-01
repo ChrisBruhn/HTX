@@ -1,6 +1,6 @@
 float belobUdenMoms = 0;
 float belobMedMoms = 100;
-String navn = "karl";
+String navn = "Karl";
 
 void setup(){
   noLoop();
@@ -9,8 +9,12 @@ void setup(){
 
 void draw(){
   
+  println ("Tak for dit køb" ,navn);
+  
   float belobUdenMoms = beregnuMoms(belobMedMoms);
   println (belobUdenMoms, day(),"/",month(),year(), hour(),":",minute());
+  
+  
   
   float belobMedMoms = beregnMoms(belobUdenMoms);
   println (belobMedMoms, day(),"/",month(),year(), hour(),":",minute());
@@ -23,4 +27,8 @@ float beregnuMoms(float belob){
 
 float beregnMoms(float belob){
   return belob*1.25;
+}
+
+void pbon(){
+  text("asdasdasd \nasdasdasd \nasdasdasd \nasdasdasd \n",1,1);
 }
