@@ -1,0 +1,11 @@
+String str2 =  "Nej";
+if (str2.equals("ja"))
+  println ("Det gør den!");
+ else
+  println ("Det gør den ikke!");
+ 
+a) hvad udskriver programmet?
+	checker om str2 er ja eller nej
+
+b) hvordan kan du få programmet til at udskrive det modsatte af, hvad den gør nu?
+	sæt str2 til "ja"
