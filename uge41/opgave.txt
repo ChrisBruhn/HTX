@@ -1,3 +1,5 @@
+I denne opgave skal du arbejde med løkker. For og While løkker
+
 Vi har nu talt om de forskellige datatyper, vi har talt om floating point og vi ved hvad overflow er.
 
 Hvis vi har en variable, som vi vil bruge som en tæller, af type integer, har vi talt om to måder at bruge variablen på.

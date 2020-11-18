@@ -1,0 +1,5 @@
+Denne opgave handler om at finde og rette fejl. 
+
+Vi arbejder med datatyper og løkker.
+
+Opgaverne står i filen.

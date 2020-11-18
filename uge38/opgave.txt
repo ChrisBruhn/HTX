@@ -14,7 +14,7 @@ Instruktioner:
 	arc();	// Tegner en bue
 	fill(); // udfylder en figur med farve. Find rgb farver her: https://www.rapidtables.com/web/color/RGB_Color.html 	
 
-I dag skal du bruge datatypen integer. Integers er heltal som f.eks: 0,1,2,3,4,5... i java deklarerer vi variabler af datatypen Integer som int.
+I denne opgave skal du bruge datatypen integer. Integers er heltal som f.eks: 0,1,2,3,4,5... i java deklarerer vi variablen x af datatypen Integer som: int x; 
 Eksempel på en deklaration og initiering i samme linje:
 int x = 0;
 
@@ -30,16 +30,16 @@ Hvis funktionen ikke returnerer noget, skal den defineres som void.
 void minFunktion(){}
 
 2) Funktioner skal navngives med et ikke reserveret ord (ord som er brugt i forvejen), men hvor navnet er sigende for funktionens funktion. 
-I mit overstående eksempel er navenet "minFunktion". Vi bruger navnet når vi skal kalde funktionen fra en anden del kode.
+I mit overstående eksempel er navenet "minFunktion". Vi bruger navnet når vi skal "kalde" funktionen fra en anden del kode.
 
-3) Funktionen kan modtage en lang række parameter. Forskellen op parameter og variabel kan vi finde i ordbogen: 
+3) Funktionen kan modtage en lang række parameter. Forskellen på betydningen af parameter og variabel kan vi finde i ordbogen: 
 "MATEMATIK størrelse som kan variere fra tilfælde til tilfælde, men som i hver enkelt, konkret beregning er konstant"
 En funktions paramenter skal angives i parantesen efternavenet og vi skal huske at deklarere datatypen.
 int minFunktion(int minAVaerdi){}
+
 Man kan sagtens deklarere mange parametere til sin funktion. Parameter er kun gyldige lokalt. Det vil sige at du kan ikke bruge en variabel du har deklareret i andre funktioner uden at skulle deklarere dem igen. 
 
-4)
-En funktions kode skal skrives i mellem de to tuborgparanteser {}.
+En funktions kode skal skrives imellem de to tuborgparanteser {}.
 
 HUSK: Hvis du vil bruge en funktion i processing skal du også bruge void setup(); og void draw();
 
