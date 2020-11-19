@@ -1,11 +1,4 @@
 # exclude everything except directory foo/bar
-/uge38/løsning/*
-/uge39/løsning/*
-/uge40/løsning/*
-/uge41/løsning/*
-/uge42/løsning/*
-/uge43/løsning/*
-/uge44/løsning/*
-/uge45/løsning/*
+/games/*
 /file-io/*
 
