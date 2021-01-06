@@ -1,0 +1,39 @@
+Vi skal arbejde med versions styring. 
+	1. Gå til: github.com og opret en konto. 
+2. Installer Github Desktop: https://desktop.github.com/ bemærk hvis du bruger mac eller linux skal du vælge en anden distribution.
+
+5. Læs denne artikkel: https://www.version2.dk/artikel/saadan-kommer-du-gang-med-at-laere-git-1073040
+3. Opret en ny folder på din computer.
+6. Du skal lave en clone  (kopi) af mit repository https://github.com/ChrisBruhn/heiku-digt.git som du gemmer i den folder du lige har lavet. Github guider dig.
+4. Du skal skrive et Heiku digt. Åben den fil du har fået fra mit repository og tilføj dit digt. Hvis du ikke ved hvad det er, kan du læse om det her: https://da.wikipedia.org/wiki/Haiku
+7. Opret et merge-request.
+
+
+Git-begreber:
+Repository: Et repository er det sted, du lagrer dit projekt. Det kan være en lokal mappe eller en ekstern server eller tjeneste som Github.
+
+Add: Tilføjer filer eller ændringer til det næste commit.
+
+Commit: Et commit er som et save game i et computerspil. Når du har nået et punkt, hvor det er en god idé at lave et save game, du kan vende tilbage til, så laver du et commit. Det gemmer de ændringer, du har lavet indtil videre.
+
+Push: Når de ændringer, du har samlet i et commit, skal sendes til dit repository, skal du lave et push.
+
+Branch: En branch er noget du bruger, når du har brug for at arbejde på en kopi af projektet og ikke vil gemme dine ændringer direkte i 'master'-kopien. Du skifter til en branch med checkout.
+
+Pull: Når du skal hente og integrere de ændringer i projektet, som ligger i repository'et, så laver du et pull.
+
+Merge: Når Git skal samle ændringer, bliver dit commit merget. Det kan give en konflikt, hvis to har ændret de samme steder i en fil.
+
+
+
+Daniel Shiffman, som også har lavet proccesing, har lavet nogle gode videoer om github.
+
+Introduction - Git and GitHub for Poets
+https://www.youtube.com/watch?v=BCQHnlnPusY&t=427s&ab_channel=TheCodingTrain
+
+Branches - Git and GitHub for Poets
+https://www.youtube.com/watch?v=oPpnCh7InLY&ab_channel=TheCodingTrain
+
+Forks and Pull Requests - Git and GitHub for Poets
+https://www.youtube.com/watch?v=_NrSWLQsDL4&ab_channel=TheCodingTrain
+

@@ -1,4 +1,4 @@
 # exclude everything except directory foo/bar
 /games/*
 /file-io/*
-
+/uge47/*.docx
