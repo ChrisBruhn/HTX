@@ -40,15 +40,17 @@ class Studerende {
     this.gender = g;
   }
 
-  void getSchool() {
-    println(this.school);
+  String getSchool() {
+    return this.school;
   }
 
-  void getGender() {
+  String getGender() {
+    String g;
     if (gender == true) {
-      println("male");
+      g= "male";
     } else {
-      println("female");
+     g = "female";
     }
+    return g;
   }
 }
